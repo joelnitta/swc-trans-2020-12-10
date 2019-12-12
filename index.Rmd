@@ -1,0 +1,221 @@
+---
+title: "Translating Software Carpentry"
+author: "Joel Nitta"
+institute: "Smithsonian Institution"
+date: "2019-12-16"
+output:
+  xaringan::moon_reader:
+    css: ["default-fonts", "default", "custom.css"]
+    lib_dir: libs
+    seal: false
+    includes:
+      after_body: insert-logo.html
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: title-slide
+background-image:url(images/title-image.png)
+background-size: 35%
+background-position: 90% 75%
+
+<br>
+
+# Translating Software Carpentry
+<br>
+## Joel H. Nitta
+
+National Museum of Natural History,<br>Smithsonian Institution<br>
+<span style = 'font-size: 80%;'>https://joelnitta.com</span>
+
+Workflow Meetup<br><span style = 'font-size: 80%;'>2019.12.16</span>
+
+---
+
+## 自己紹介
+
+.pull-left[
+新田ジョエル
+
+@joel_nitta
+
+- 特別研究員（ポスドク）
+
+- スミソニアン国立自然史博物館
+
+- 研究テーマ：シダ植物の進化、生態学
+
+- 趣味：マラソン
+]
+
+.pull-right[
+<img src="https://raw.githubusercontent.com/joelnitta/joelnitta-site/master/static/img/headers/research_img2.jpg" alt="drawing" height="400"/>
+]
+
+---
+
+## Software Carpentry (SWC) とは？
+
+.middle[
+- 無償のコードを教えるワークショップ A free coding workshop
+
+- ボランティアによって運営されている Run by volunteers
+
+- 研究者にコードのベストプラクティスを教える Teaches academic researchers best practices
+
+![](images/swc_header.png)
+]
+
+.center[https://software-carpentry.org/]
+
+---
+
+## 問題 The problem
+
+- 研究者は最近コードを使えざるを得ない  
+Academic researchers increasingly need to use code
+
+- ほとんどは自習で覚えている Most of them are self-taught
+
+- が、効率はあまり高くない ...but they are not very efficient
+
+---
+
+## SWCの解決方 SWC's solution
+
+- 研究者が**コミュニティを作って**、互いに教え合う  
+Researchers teach each other as a **community**
+
+- 二日間にわたワークショップ Two-day workshop
+
+- ３−４レッスンを教える　Cover 3-4 lessons
+
+---
+
+## Workshops ワークショップ
+
+基本レッスン　Core Lessons
+
+- unix shell: タスクの自動化 Automation of repetitive tasks
+
+- git and gitHub: バージョン管理、コードの共有 Version control, sharing code
+
+- python or R: コードの書き方 Writing modular code
+
+---
+
+## Workshops ワークショップ
+
+- 誰でも参加できる Open to anyone
+
+- 無料か少額 Free or small charge for catering/venue
+
+- レッスン前後にアンケートを実施 Survey before and after lessons
+
+- 改善のためのフィードバックは重視されている Feedback is important to improve lessons
+
+- 世界（ほぼ）各国で実施　Held (almost) all over the world
+
+---
+
+### 1622 workshops in 51 countries since 2012
+
+![](images/map.png)
+
+---
+class: middle
+
+# 日本でもできる？
+
+# Can we bring SWC to Japan?
+
+---
+class: middle
+
+# できますとも！…でも日本語の教材が必要です
+
+# Yes! ...But we need curricula in Japanese
+
+---
+
+##　翻訳チーム Translation team
+
+- 2018年11月から　Start Nov. 2018
+
+- 設立者　Founder: Tom Kelly　@tomkXY (RIKEN)
+
+- 翻訳係（日本語ネイティブ） Translator (JA native): 8
+
+- レビュー係（両方わかる） Reviewer (strong EN and JA): 2
+
+- 管理係　Maintainer: 3
+
+---
+
+## アプローチ　Translation strategy
+
+- ６レッスン　6 lessons
+
+- １レッスンあたり10-15セクション 10-15 sections per lesson
+
+- １セクションあたり１イッシュー　One issue per section
+
+.center[<img src="images/issue.png" alt="drawing" height="350"/>]
+
+---
+
+## アプローチ　Translation strategy
+
+- 英語の教材はmdファイルになっている  
+English lessons are md files
+
+- POファイルで翻訳を作る  
+Use a PO file to generate the translation
+
+- 更新があったら、変わった場所だけの翻訳を直せばいい  
+When the English version is updated, we only have to change that part
+
+---
+
+## アプローチ　Translation strategy
+
+![](images/translation_workflow.svg)
+A→あ
+---
+
+## 現状　Current progress
+
+- **R (データ解析 data analysis)**: 13/16 セクション完了  
+13/16 sections complete
+
+- R（プログラミング programming）: 0/15
+
+- Python(データ解析 data analysis): 0/20
+
+- Python（プログラミング programming）: 0/11
+
+- unix: 0/7
+
+- **git: 1/14** ← 次にやる予定　Next up
+
+---
+
+## 参加者大募集中　Looking for participants!
+
+- Slack
+
+  - tokyo.Rワークスペースのswcarpentryチャンネル
+
+  - https://r-wakalang.herokuapp.com/ からアクセス
+
+- Github Repo: https://github.com/swcarpentry-ja/i18n/
+
+- Meetup: 東京周辺に年2-3回　2-3 times per year in Tokyo area
+
+---
+class: center, middle
+
+# ご静聴をありがとうございます
+
+# Thank you!
