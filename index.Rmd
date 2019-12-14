@@ -159,6 +159,22 @@ class: middle
 
 - １レッスンあたり10-15「エピソード」 10-15 "episodes" per lesson
 
+#### レッスンの例 Example lesson: R
+
+- 英語（オフィッシャル） English (official)  
+http://swcarpentry.github.io/r-novice-gapminder/
+
+- 日本語 Japanese (WIP)  
+https://joelnitta.github.io/r-novice-gapminder-ja/
+
+---
+
+## アプローチ　Translation strategy
+
+- ６レッスン　6 lessons
+
+- １レッスンあたり10-15「エピソード」 10-15 "episodes" per lesson
+
 - １エピソードあたり１イッシュー　One issue per episode
 
 .center[<img src="images/issue.png" alt="drawing" height="350"/>]
@@ -181,7 +197,7 @@ When the English version is updated, we only have to change that part
 ## アプローチ　Translation strategy
 
 ![](images/translation_workflow.svg)
-A→あ
+
 ---
 
 ## 現状　Current progress
