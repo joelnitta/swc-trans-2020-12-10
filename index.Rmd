@@ -9,9 +9,9 @@ output:
     lib_dir: libs
     seal: false
     includes:
-      before_init: "https://platform.twitter.com/widgets.js"
-      after_body: [insert-logo.html]
+      after_body: insert-logo.html
     nature:
+      before_init: "https://platform.twitter.com/widgets.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
