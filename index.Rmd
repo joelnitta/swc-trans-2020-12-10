@@ -11,7 +11,6 @@ output:
     includes:
       after_body: insert-logo.html
     nature:
-      before_init: "https://platform.twitter.com/widgets.js"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -156,11 +155,11 @@ class: middle
 
 - 翻訳係（日本語ネイティブ） Translator (JA native): 8
 
-- レビュー係（日英両方わかる） Reviewer (strong EN and JA): 2
+- レビュー係（日英両方わかる） Reviewer (strong EN & JA): 2
 
 - 管理係　Maintainer: 3
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’ve set up an organisation for <a href="https://twitter.com/hashtag/swcarpentry?src=hash&amp;ref_src=twsrc%5Etfw">#swcarpentry</a> in <a href="https://twitter.com/hashtag/Japan?src=hash&amp;ref_src=twsrc%5Etfw">#Japan</a>. Please help us make lessons in <a href="https://twitter.com/hashtag/Japanese?src=hash&amp;ref_src=twsrc%5Etfw">#Japanese</a>.<a href="https://twitter.com/swcarpentry?ref_src=twsrc%5Etfw">@swcarpentry</a> <a href="https://twitter.com/datacarpentry?ref_src=twsrc%5Etfw">@datacarpentry</a> <a href="https://twitter.com/thecarpentries?ref_src=twsrc%5Etfw">@thecarpentries</a> <a href="https://twitter.com/hashtag/TokyoR?src=hash&amp;ref_src=twsrc%5Etfw">#TokyoR</a> <a href="https://t.co/QqXgXKkYAp">https://t.co/QqXgXKkYAp</a></p>&mdash; Tom Kelly ケリー・トム (@tomkXY) <a href="https://twitter.com/tomkXY/status/1056459257418108928?ref_src=twsrc%5Etfw">October 28, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+.center[<img src="images/tweet.png" alt="drawing" height="250"/>]
 
 ---
 
