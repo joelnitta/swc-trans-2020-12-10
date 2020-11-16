@@ -224,16 +224,6 @@ class: middle
 
 ---
 
-## レッスンの例 Example lesson
-
-[R in Japanese](https://swcarpentry-ja.github.io/r-novice-gapminder/ja/index/index.html)
-
-```{r echo=FALSE}
-knitr::include_url("https://swcarpentry-ja.github.io/r-novice-gapminder/ja/index/index.html")
-```
-
----
-
 ## アプローチ　Translation strategy
 
 - ６レッスン　6 lessons
@@ -253,6 +243,16 @@ knitr::include_url("https://swcarpentry-ja.github.io/r-novice-gapminder/ja/index
 
 ---
 
+## レッスンの例 Example lesson
+
+[R in Japanese](https://swcarpentry-ja.github.io/r-novice-gapminder/ja/)
+
+```{r echo=FALSE}
+knitr::include_url("https://swcarpentry-ja.github.io/r-novice-gapminder/ja/")
+```
+
+---
+
 ## アプローチ　Translation strategy
 
 - 英語の教材はmdファイルになっている
@@ -268,7 +268,7 @@ When the English version is updated, we only have to change that part
 
 ## アプローチ　Translation strategy
 
-![](images/translation_workflow.svg)
+![](images/translation_workflow-2.svg)
 
 ---
 
