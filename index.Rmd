@@ -33,11 +33,11 @@ Iwasaki Lab,<br>The University of Tokyo<br>
 Fika Seminar<br><span style = 'font-size: 80%;'>2020.11.17</span>
 
 ---
-## この発表で伝いたいこと<br>What I want to tell you about today
+## この発表で伝えたいこと<br>What I want to tell you about today
 
-- ソフトウェア・カーペントリーとは何でしょうか？<br>What is Software Carpentry (SWC)?
+- ソフトウェア・カーペントリーとは何か？<br>What is Software Carpentry (SWC)?
 
-- SWCに参加すると何が得られるでしょうか？<br>What can you gain from participating in SWC?
+- SWCに参加すると何が得られるか？<br>What can you gain from participating in SWC?
 
 - どうやってSWCの教材を日本語にしているのか？<br>How are we translating SWC materials in Japanese?
 
@@ -46,7 +46,7 @@ Fika Seminar<br><span style = 'font-size: 80%;'>2020.11.17</span>
 ## Software Carpentry (SWC) とは？
 
 .middle[
-- 無償のコードを教えるワークショップ A free coding workshop
+- 無償でコードを教えるワークショップ A free coding workshop
 
 - ボランティアによって運営されている Run by volunteers
 
@@ -72,7 +72,7 @@ Academic researchers increasingly need to use code
 
 - ほとんどは独学で覚えている Most of them are self-taught
 
-- が、効率はあまり高くない ...but they are not very efficient
+- が、効率はあまり良くない ...but they are not very efficient
 
 .center[<img src="https://2.bp.blogspot.com/-3Zik2AGqMlM/W-0gea-VWRI/AAAAAAABQKE/b0xXQ9ZeGJIOyS_1xqt_qHRmrmtOf6J7ACLcBGAs/s400/computer_typing_osoi.png" alt="drawing" height="300"/>]
 
@@ -169,7 +169,7 @@ Data Carpentry, Library Carpentry, Software Carpentry
 
 - ボランテイア Volunteers
 
-- 合格には講習の参加と模擬授業に基づいた試験を受ける必要がある<br>Certification after taking training course and passing live teaching demonstration
+- 合格するためには講習への参加と模擬授業の試験を受ける必要がある<br>Certification after taking training course and passing live teaching demonstration
 
 .center[<img src="images/certificate.png" alt="drawing" height="300">]
 
@@ -195,7 +195,7 @@ Data Carpentry, Library Carpentry, Software Carpentry
 
 [Smithsonian Institution, 2019](https://smithsonianworkshops.github.io/2019-02-04-castle/): 博物館の研究者にデータ解析スキルを教える<br>Teach museum researchers analysis skills (Data Carpentry)
 
-[Institute for Tribal Environmental Professionals, 2020](https://marwahaha.github.io/2020-11-04-ITEP-online/): アメリカ先住民の方々にデータスキルを教える<br>Teach tribal leaders analysis skills (Data Carpentry)
+[Institute for Tribal Environmental Professionals, 2020](https://marwahaha.github.io/2020-11-04-ITEP-online/): アメリカ先住民にデータスキルを教える<br>Teach tribal leaders analysis skills (Data Carpentry)
 
 ---
 class: middle
@@ -207,7 +207,7 @@ class: middle
 ---
 class: middle
 
-# できますとも！…でも日本語の教材が必要です
+# できます！…でも日本語の教材が必要です
 
 # Yes! ...But we need curricula in Japanese
 
@@ -247,7 +247,7 @@ knitr::include_url("https://swcarpentry-ja.github.io/r-novice-gapminder/ja/index
 
 - ６レッスン　6 lessons
 - １レッスンあたり10-15「エピソード」 10-15 episodes/lesson
-- １エピソードあたり１イッシュー　One issue/episode
+- １エピソードあたり１イシュー　One issue/episode
 
 .center[<img src="images/issue.png" alt="drawing" height="350"/>]
 
@@ -261,7 +261,7 @@ English lessons are md files
 - POファイルで翻訳を作る
 Use a PO file to generate the translation
 
-- 更新があったら、変わった場所だけの翻訳を直せばいい
+- 更新があったら、変わった場所だけ翻訳を直せばよい
 When the English version is updated, we only have to change that part
 
 ---
@@ -304,6 +304,6 @@ When the English version is updated, we only have to change that part
 ---
 class: center, middle
 
-# ご清聴をありがとうございます
+# ご清聴ありがとうございます
 
 # Thank you!
