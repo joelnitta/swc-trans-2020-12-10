@@ -1,5 +1,5 @@
 ---
-title: "Teaching Data Skills with Software Carpentry"
+title: "Teaching Research Computing Skills with Software Carpentry"
 author: "Joel Nitta"
 institute: "The University of Tokyo"
 date: "2020-11-17"
@@ -22,7 +22,7 @@ background-position: 90% 75%
 
 <br>
 
-# Teaching Data Skills with Software Carpentry
+# Teaching Research Computing Skills with Software Carpentry
 
 <br>
 ## Joel H. Nitta
