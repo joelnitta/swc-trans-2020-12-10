@@ -20,27 +20,63 @@ background-image:url(images/title-image-2.png)
 background-size: 35%
 background-position: 90% 75%
 
-<br>
-
-# Teaching Research Computing Skills with Software Carpentry
+# Increasing Diversity in STEM <br> with the Carpentries
 
 <br>
 ## Joel H. Nitta
 
 Iwasaki Lab,<br>The University of Tokyo<br>
 <span style = 'font-size: 80%;'>https://joelnitta.com</span>
-
-Fika Seminar<br><span style = 'font-size: 80%;'>2020.11.17</span>
+<span style = 'font-size: 80%;'>2020.12.10</span>
 
 ---
-## この発表で伝えたいこと<br>What I want to tell you about today
+## AIと社会 AI in society
 
-- ソフトウェア・カーペントリーとは何か？<br>What is Software Carpentry (SWC)?
+- 人工知能(AI)はもはや普遍的になりつつある<br>Artificial Intelligence (AI) pervades our lives
 
-- SWCに参加すると何が得られるか？<br>What can you gain from participating in SWC?
+- AIには**バイアス**がある<br>AI is **biased**
 
-- どうやってSWCの教材を日本語にしているのか？<br>How are we translating SWC materials in Japanese?
+- バイアスはSTEMにおいてダイバーシティーが欠けていることに由来する<br>Bias is due to **lack of diversity in STEM**
 
+---
+### 問題解決にむけて頑張っているグループ
+
+Various groups are trying to remedy this: [Girls Who Code](https://girlswhocode.com/)
+
+![](images/girls-who-code.png)
+
+---
+### 問題解決にむけて頑張っているグループ
+
+Various groups are trying to remedy this: [Black in AI](https://blackinai2020.vercel.app/)
+
+![](images/black-in-ai.png)
+
+---
+### 問題解決にむけて頑張っているグループ
+
+Various groups are trying to remedy this: [R Ladies](https://rladies.org/)
+
+![](images/r-ladies.png)
+
+---
+日本は特にSTEMにおけるジェンダーバイアスがひどい<br>STEM particularly lacks gender diversity in Japan
+
+![](images/women_researchers_oecd.png)
+
+---
+### 日本で問題解決にむけて頑張っているグループ
+
+(Some) groups are trying to remedy this in Japan: [Women Who Code Tokyo](https://www.womenwhocode.com/tokyo)
+
+![](images/women-who-code-tokyo.png)
+
+---
+class: middle
+
+# Software Carpentry can help!
+
+![](images/workshop.png)
 ---
 
 ## Software Carpentry (SWC) とは？
@@ -118,50 +154,11 @@ Researchers teach each other as a **community**
 
 ---
 
-## レッスン Lessons
-
-基本レッスン Core Lessons: unix, git, python, R
-
-![](images/swc-core-lessons.png)
-
----
-
-## レッスン Lessons
-
-http://swcarpentry.github.io/shell-novice/
-
-```{r echo=FALSE}
-knitr::include_url("http://swcarpentry.github.io/shell-novice/")
-```
-
----
-
-## レッスン Lessons
-
-https://github.com/swcarpentry/shell-novice
-
-![](images/shell-novice-gh.png)
----
-
-## レッスン Lessons
-
-追加レッスン Additional Lessons: make, MATLAB, SQL
-
-![](images/swc-add-lessons.png)
-
----
-
 ## ザ・カーペントリーズ The Carpentries
 
 Data Carpentry, Library Carpentry, Software Carpentry
 
 ![](images/carp-header.png)
-
----
-
-## データ・カーペントリーのレッスン<br>Data Carpentry Lessons
-
-![](images/dc-genomics-lessons.png)
 
 ---
 
@@ -185,7 +182,7 @@ Data Carpentry, Library Carpentry, Software Carpentry
 
 - 年会費（米ドル）Annual fee (USD): $5,000&ndash;$15,000
 
-[Examples](https://carpentries.org/members/): California Institute of Technology, CSIRO, NASA, Stanford University, Smithsonian Institution, South African Centre for Digital Language Resources, Woods Hole Oceanographic Institution...（東大？）
+[Examples](https://carpentries.org/members/): California Institute of Technology, CSIRO, NASA, Stanford University, Smithsonian Institution, South African Centre for Digital Language Resources, Woods Hole Oceanographic Institution...
 
 ---
 
@@ -198,97 +195,20 @@ Data Carpentry, Library Carpentry, Software Carpentry
 [Institute for Tribal Environmental Professionals, 2020](https://marwahaha.github.io/2020-11-04-ITEP-online/): アメリカ先住民にデータスキルを教える<br>Teach tribal leaders analysis skills (Data Carpentry)
 
 ---
-class: middle
+## SWC in Japan
 
-# 日本でもできる？
-
-# Can we bring SWC to Japan?
-
----
-class: middle
-
-# できます！…でも日本語の教材が必要です
-
-# Yes! ...But we need curricula in Japanese
-
----
-
-##　翻訳チーム Translation team
-
-- 役割 Roles
-  - 翻訳係（日本語ネイティブ） Translator (JA native)
-  - レビュー係（日英両方わかる） Reviewer (strong EN & JA)
-  - 管理係　Maintainer
+- ボランティアからなる多国籍なグループが教材を日本語に翻訳しています<br>A multinational group of volunteers are translating materials into Japanese
 
 .center[<img src="images/swc-ja-team.png" alt="drawing">]
 
 ---
+## SWC in Japan
 
-## アプローチ　Translation strategy
+- ワークショップもメンバー組織もまだありません<br>No workshops or member institutions **yet**
 
-- ６レッスン　6 lessons
-- １レッスンあたり10-15「エピソード」 10-15 episodes/lesson
-
-.center[<img src="images/lesson-struc.png" alt="drawing" height="400">]
+- コミュニティーを一緒に支える方を探しています！<br>Looking for help to grow the community!
 
 ---
-
-## アプローチ　Translation strategy
-
-- ６レッスン　6 lessons
-- １レッスンあたり10-15「エピソード」 10-15 episodes/lesson
-- １エピソードあたり１イシュー　One issue/episode
-
-.center[<img src="images/issue.png" alt="drawing" height="350"/>]
-
----
-
-## レッスンの例 Example lesson
-
-[R in Japanese](https://swcarpentry-ja.github.io/r-novice-gapminder/ja/)
-
-```{r echo=FALSE}
-knitr::include_url("https://swcarpentry-ja.github.io/r-novice-gapminder/ja/")
-```
-
----
-
-## アプローチ　Translation strategy
-
-- 英語の教材はmdファイルになっている
-English lessons are md files
-
-- POファイルで翻訳を作る
-Use a PO file to generate the translation
-
-- 更新があったら、変わった場所だけ翻訳を直せばよい
-When the English version is updated, we only have to change that part
-
----
-
-## アプローチ　Translation strategy
-
-![](images/translation_workflow-2.svg)
-
----
-
-## 現状　Current progress
-
-- **R (データ解析 data analysis)**: 16/16 エピソード完了
-16/16 episodes complete
-
-- R（プログラミング programming）: 0/15
-
-- Python(データ解析 data analysis): 0/20
-
-- Python（プログラミング programming）: 0/11
-
-- **git: 2/14** ← 次にやる予定　Next up
-
-- **unix: 0/7**
-
----
-
 ## 参加者大募集中　Looking for participants!
 
 - Twitter: @swcarpentry_ja

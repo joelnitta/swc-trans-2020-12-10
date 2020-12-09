@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
   <head>
     <title>Teaching Research Computing Skills with Software Carpentry</title>
     <meta charset="utf-8" />
@@ -7,6 +7,8 @@
     <meta name="date" content="2020-11-17" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+    <script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
     <link rel="stylesheet" href="custom.css" type="text/css" />
   </head>
   <body>
@@ -17,27 +19,63 @@ background-image:url(images/title-image-2.png)
 background-size: 35%
 background-position: 90% 75%
 
-&lt;br&gt;
-
-# Teaching Research Computing Skills with Software Carpentry
+# Increasing Diversity in STEM &lt;br&gt; with the Carpentries
 
 &lt;br&gt;
 ## Joel H. Nitta
 
 Iwasaki Lab,&lt;br&gt;The University of Tokyo&lt;br&gt;
 &lt;span style = 'font-size: 80%;'&gt;https://joelnitta.com&lt;/span&gt;
-
-Fika Seminar&lt;br&gt;&lt;span style = 'font-size: 80%;'&gt;2020.11.17&lt;/span&gt;
+&lt;span style = 'font-size: 80%;'&gt;2020.12.10&lt;/span&gt;
 
 ---
-## この発表で伝えたいこと&lt;br&gt;What I want to tell you about today
+## AIと社会 AI in society
 
-- ソフトウェア・カーペントリーとは何か？&lt;br&gt;What is Software Carpentry (SWC)?
+- 人工知能(AI)はもはや普遍的になりつつある&lt;br&gt;Artificial Intelligence (AI) pervades our lives
 
-- SWCに参加すると何が得られるか？&lt;br&gt;What can you gain from participating in SWC?
+- AIには**バイアス**がある&lt;br&gt;AI is **biased**
 
-- どうやってSWCの教材を日本語にしているのか？&lt;br&gt;How are we translating SWC materials in Japanese?
+- バイアスはSTEMにおいてダイバーシティーが欠けていることに由来する&lt;br&gt;Bias is due to **lack of diversity in STEM**
 
+---
+### 問題解決にむけて頑張っているグループ
+
+Various groups are trying to remedy this: [Girls Who Code](https://girlswhocode.com/)
+
+![](images/girls-who-code.png)
+
+---
+### 問題解決にむけて頑張っているグループ
+
+Various groups are trying to remedy this: [Black in AI](https://blackinai2020.vercel.app/)
+
+![](images/black-in-ai.png)
+
+---
+### 問題解決にむけて頑張っているグループ
+
+Various groups are trying to remedy this: [R Ladies](https://rladies.org/)
+
+![](images/r-ladies.png)
+
+---
+日本は特にSTEMにおけるジェンダーバイアスがひどい&lt;br&gt;STEM particularly lacks gender diversity in Japan
+
+![](images/women_researchers_oecd.png)
+
+---
+### 日本で問題解決にむけて頑張っているグループ
+
+(Some) groups are trying to remedy this in Japan: [Women Who Code Tokyo](https://www.womenwhocode.com/tokyo)
+
+![](images/women-who-code-tokyo.png)
+
+---
+class: middle
+
+# Software Carpentry can help!
+
+![](images/workshop.png)
 ---
 
 ## Software Carpentry (SWC) とは？
@@ -115,48 +153,11 @@ Researchers teach each other as a **community**
 
 ---
 
-## レッスン Lessons
-
-基本レッスン Core Lessons: unix, git, python, R
-
-![](images/swc-core-lessons.png)
-
----
-
-## レッスン Lessons
-
-http://swcarpentry.github.io/shell-novice/
-
-&lt;iframe src="http://swcarpentry.github.io/shell-novice/" width="100%" height="400px"&gt;&lt;/iframe&gt;
-
----
-
-## レッスン Lessons
-
-https://github.com/swcarpentry/shell-novice
-
-![](images/shell-novice-gh.png)
----
-
-## レッスン Lessons
-
-追加レッスン Additional Lessons: make, MATLAB, SQL
-
-![](images/swc-add-lessons.png)
-
----
-
 ## ザ・カーペントリーズ The Carpentries
 
 Data Carpentry, Library Carpentry, Software Carpentry
 
 ![](images/carp-header.png)
-
----
-
-## データ・カーペントリーのレッスン&lt;br&gt;Data Carpentry Lessons
-
-![](images/dc-genomics-lessons.png)
 
 ---
 
@@ -180,7 +181,7 @@ Data Carpentry, Library Carpentry, Software Carpentry
 
 - 年会費（米ドル）Annual fee (USD): $5,000&amp;ndash;$15,000
 
-[Examples](https://carpentries.org/members/): California Institute of Technology, CSIRO, NASA, Stanford University, Smithsonian Institution, South African Centre for Digital Language Resources, Woods Hole Oceanographic Institution...（東大？）
+[Examples](https://carpentries.org/members/): California Institute of Technology, CSIRO, NASA, Stanford University, Smithsonian Institution, South African Centre for Digital Language Resources, Woods Hole Oceanographic Institution...
 
 ---
 
@@ -193,95 +194,20 @@ Data Carpentry, Library Carpentry, Software Carpentry
 [Institute for Tribal Environmental Professionals, 2020](https://marwahaha.github.io/2020-11-04-ITEP-online/): アメリカ先住民にデータスキルを教える&lt;br&gt;Teach tribal leaders analysis skills (Data Carpentry)
 
 ---
-class: middle
+## SWC in Japan
 
-# 日本でもできる？
-
-# Can we bring SWC to Japan?
-
----
-class: middle
-
-# できます！…でも日本語の教材が必要です
-
-# Yes! ...But we need curricula in Japanese
-
----
-
-##　翻訳チーム Translation team
-
-- 役割 Roles
-  - 翻訳係（日本語ネイティブ） Translator (JA native)
-  - レビュー係（日英両方わかる） Reviewer (strong EN &amp; JA)
-  - 管理係　Maintainer
+- ボランティアからなる多国籍なグループが教材を日本語に翻訳しています&lt;br&gt;A multinational group of volunteers are translating materials into Japanese
 
 .center[&lt;img src="images/swc-ja-team.png" alt="drawing"&gt;]
 
 ---
+## SWC in Japan
 
-## アプローチ　Translation strategy
+- ワークショップもメンバー組織もまだありません&lt;br&gt;No workshops or member institutions **yet**
 
-- ６レッスン　6 lessons
-- １レッスンあたり10-15「エピソード」 10-15 episodes/lesson
-
-.center[&lt;img src="images/lesson-struc.png" alt="drawing" height="400"&gt;]
+- コミュニティーを一緒に支える方を探しています！&lt;br&gt;Looking for help to grow the community!
 
 ---
-
-## アプローチ　Translation strategy
-
-- ６レッスン　6 lessons
-- １レッスンあたり10-15「エピソード」 10-15 episodes/lesson
-- １エピソードあたり１イシュー　One issue/episode
-
-.center[&lt;img src="images/issue.png" alt="drawing" height="350"/&gt;]
-
----
-
-## レッスンの例 Example lesson
-
-[R in Japanese](https://swcarpentry-ja.github.io/r-novice-gapminder/ja/)
-
-&lt;iframe src="https://swcarpentry-ja.github.io/r-novice-gapminder/ja/" width="100%" height="400px"&gt;&lt;/iframe&gt;
-
----
-
-## アプローチ　Translation strategy
-
-- 英語の教材はmdファイルになっている
-English lessons are md files
-
-- POファイルで翻訳を作る
-Use a PO file to generate the translation
-
-- 更新があったら、変わった場所だけ翻訳を直せばよい
-When the English version is updated, we only have to change that part
-
----
-
-## アプローチ　Translation strategy
-
-![](images/translation_workflow-2.svg)
-
----
-
-## 現状　Current progress
-
-- **R (データ解析 data analysis)**: 16/16 エピソード完了
-16/16 episodes complete
-
-- R（プログラミング programming）: 0/15
-
-- Python(データ解析 data analysis): 0/20
-
-- Python（プログラミング programming）: 0/11
-
-- **git: 2/14** ← 次にやる予定　Next up
-
-- **unix: 0/7**
-
----
-
 ## 参加者大募集中　Looking for participants!
 
 - Twitter: @swcarpentry_ja
@@ -347,6 +273,32 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
 // adds .remark-code-has-line-highlighted class to <pre> parent elements
 // of code chunks containing highlighted lines with class .remark-code-line-highlighted
 (function(d) {
@@ -390,17 +342,6 @@ document
   .forEach(el => {
     el.innerHTML += '<div class="logo"></div>';
   });
-</script>
-
-<script>
-(function() {
-  var links = document.getElementsByTagName('a');
-  for (var i = 0; i < links.length; i++) {
-    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
-      links[i].target = '_blank';
-    }
-  }
-})();
 </script>
 
 <script>
