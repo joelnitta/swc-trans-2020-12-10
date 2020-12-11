@@ -110,7 +110,7 @@ class: middle
 
 ### <i>Diversity is our Goal. Equity, Inclusion, & Accessibility is how we get there.</i>
 
-\- Tracy Teal, Executive Director, The Carpentries
+\- Tracy Teal, Former Executive Director, The Carpentries
 
 ---
 ## ワークショップの例 Example Workshop
